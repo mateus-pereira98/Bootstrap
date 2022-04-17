@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --principal: 'Bebas Neue', cursive;
+    --cor0: #ffff00;
+    --cor1: #ffff00db;
+    --cor2: #0070ba;
+    --cor3: #3280c8; 
+    --cor4: #fff;
+    --cor5: #000; 
+}
+
+* {
+    font: 20px Arial, sans-serif;
+}
+
+h1 {
+    font-family: var(--principal);
+    color: var(--cor1);
+}
+
+h3 {
+    color: #fff;
+}
+
+h4 {
+    background-image: linear-gradient(to right, #ffff00, transparent);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-variant: small-caps;
+}
+
+.container p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.7em;
+}
+
+.padd {
+    padding: 20px;
+}
+
+.padd-top {
+    padding-top: 40px;
+}
+
+.navbar {
+    background-color: var(--cor4);
+}
+
+.margin-logo {
+    padding: 5px 5px 10px 10px;
+}
+
+.margin {
+    padding: 15px;
+}
+
+.quem-somos {
+    background-color: var(--cor3);
+    color: #fff;
+}
+
+#parceiros {
+    background-color: var(--cor5);
+}
+
+#servicos {
+    color: #000;
+}
+
+
+.imagem {
+    min-width: 50%;
+    max-width: 100%;
+}
+
+.imagem-phil {
+    min-width: 30%;
+    max-width: 60%;
+}
+
+.bg-footer {
+    background-color: var(--cor5);
+    color: #fff;
+}
+
+.parceiros h3 {
+    font-size: 2em;
+    font-variant: small-caps;
+}
+
+footer > p {
+    font-variant: small-caps;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff00;
+}
